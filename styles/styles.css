@@ -1,8 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Variables */
+:root{
+  --primary: #FFCC70;
+  --secondary: #FFFADD;
 }
+
+
+
+
+/* Style reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+
+
+
+
+
 
 #shoe-banner{
     width: 100%;
