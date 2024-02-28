@@ -2,16 +2,15 @@
 :root{
   --primary: #FFCC70;
   --secondary: #FFFADD;
+  
+  
 }
-
-
-
 
 /* Style reset */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
 body{
@@ -22,6 +21,25 @@ li{
   list-style-type: none;
 }
 
+/* Base style */ 
+body{
+  overflow-x: hidden;
+  background-color: #F5F5F5;
+  color: #121212;
+  
+}
+
+h1,h3, li, p{
+  font-size: 1.3em;
+}
+
+h2, strong{
+  font-size: 1.4em;
+}
+
+
+
+
 
 
 
@@ -30,6 +48,13 @@ li{
 
 
 #shoe-banner{
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: 60vh;
+  display: none;
 }
+
+
+
+
+
+
