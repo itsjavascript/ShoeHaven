@@ -1,60 +1,59 @@
 /* Variables */
-:root{
-  --primary: #FFCC70;
-  --secondary: #FFFADD;
-  
-  
+:root {
+  --primary: #ffcc70;
+  --secondary: #fffadd;
 }
+
+/* font 
+
+  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  */
 
 /* Style reset */
 * {
   margin: 0;
   padding: 0;
-  
 }
 
-body{
+body {
   text-decoration: none;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-/* Base style */ 
-body{
+/* Base style */
+body {
   overflow-x: hidden;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   color: #121212;
-  
 }
 
-h1,h3, li, p{
-  font-size: 1.3em;
+h1,
+h3 {
+  font-size: 1.2em;
+  font-family: "Bebas Neue", sans-serif;
 }
 
-h2, strong{
-  font-size: 1.4em;
+h2,
+strong,
+li,
+p,
+a {
+  font-size: 1.1em;
+  font-family: "Montserrat", sans-serif;
 }
 
+#navigation {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 
-
-
-
-
-
-
-
-
-
-#shoe-banner{
+#shoe-banner {
   width: 100%;
   height: 60vh;
   display: none;
 }
-
-
-
-
-
-
