@@ -150,6 +150,17 @@ input[type="checkbox"] {
   margin-top: 15%;
 }
 
+.new_arrivals--cards {
+  border: 1px solid #000;
+  text-align: center;
+  margin: 50px;
+}
+
+.card_content img {
+  width: 100%;
+  height: auto;
+}
+
 #shoe-banner {
   width: 100%;
   height: 60vh;
