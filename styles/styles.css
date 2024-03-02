@@ -29,7 +29,7 @@ li {
 /* Base style */
 body {
   overflow-x: hidden;
-  background-color: #eef5ff;
+  background-color: var(--secondary);
   height: 5000px;
 }
 
