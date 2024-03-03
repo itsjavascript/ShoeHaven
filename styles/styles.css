@@ -1,8 +1,9 @@
 /* Variables */
 :root {
-  --primary: #86b6f6;
-  --secondary: #b4d4ff;
-  --tertiary: #176b87;
+  --primary: #40a2e3;
+  --background: #fff6e9;
+  --secondary: #bbe2ec;
+  --tertiary: #0d9276;
 }
 
 /* font 
@@ -29,13 +30,13 @@ li {
 /* Base style */
 body {
   overflow-x: hidden;
-  background-color: var(--secondary);
+  background-color: var(--background);
   height: 5000px;
 }
 
 h1,
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: "Bebas Neue", sans-serif;
   color: #000;
 }
@@ -54,10 +55,13 @@ a {
 
 #navigation {
   width: 100%;
-  height: 9%;
+  height: auto;
+  background-color: var(--background);
   position: fixed;
   top: 0;
-  background-color: #eef5ff;
+  -webkit-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.6);
 }
 
 #nav_brand {
@@ -75,7 +79,7 @@ a {
 }
 
 .nav_container {
-  margin-top: 0.9em;
+  margin-top: 1.6em;
 }
 
 .nav_list {
@@ -147,13 +151,40 @@ input[type="checkbox"] {
 /* Start of styling for main container */
 
 #landing_page {
+  background: fixed center url("/assets/banner.jpg") no-repeat;
+  background-size: auto 80vh;
+  width: 100%;
+  height: 80vh;
   margin-top: 15%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h3 {
+  color: #fff;
+  font-size: 2.2em;
+  text-shadow: 2px 2px 5px #000;
+  display: none;
+}
+
+#new_arrivals {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 10%;
 }
 
 .new_arrivals--cards {
   border: 1px solid #000;
   text-align: center;
   margin: 50px;
+  padding: 20px;
 }
 
 .card_content img {
@@ -161,7 +192,18 @@ input[type="checkbox"] {
   height: auto;
 }
 
-#shoe-banner {
-  width: 100%;
-  height: 60vh;
+.cta-button {
+  width: 50%;
+  height: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+  margin: 8px;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 500;
+}
+
+.buy_now {
+  background-color: var(--primary);
+  color: #fff;
 }
