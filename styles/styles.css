@@ -1,9 +1,9 @@
 /* Variables */
 :root {
-  --primary: #e8e8e8;
-  --background: #f4f4f2;
-  --secondary: #495464;
-  --tertiary: #bbbfca;
+  --background: #f5f5f5;
+  --primary: #145374;
+  --secondary: #00334e;
+  --tertiary: #ed6f58;
 }
 
 /* font 
@@ -32,7 +32,6 @@ li {
 body {
   overflow-x: hidden;
   background-color: var(--background);
-  height: 5000px;
 }
 
 h1,
@@ -55,7 +54,7 @@ a {
 /* Start of styling for navigation */
 
 #navigation {
-  width: 100%;
+  min-width: 100%;
   height: auto;
   background-color: var(--background);
   position: fixed;
@@ -93,7 +92,7 @@ a {
   transition: left 0.3s ease;
 }
 
-.cart_wishlist{
+.cart_wishlist {
   margin-top: 5px;
 }
 
@@ -150,6 +149,7 @@ input[type="checkbox"] {
 
 .signup_btn {
   background-color: var(--tertiary);
+  color: #202020;
 }
 
 /* End of styling for navigation  */
@@ -159,7 +159,7 @@ input[type="checkbox"] {
 #landing_page {
   background: fixed center url("/assets/banner.jpg") no-repeat;
   background-size: auto 85vh;
-  width: 100%;
+  width: auto;
   height: 80vh;
   margin-top: 15%;
 }
@@ -172,13 +172,12 @@ input[type="checkbox"] {
   align-items: center;
 }
 
-#btn_shopnow{
+#btn_shopnow {
   width: 40%;
   height: 35px;
   font-size: 1.2em;
   border: 1px solid #000;
   border-radius: 35px;
-  
 }
 
 .container h3 {
@@ -188,7 +187,7 @@ input[type="checkbox"] {
 }
 
 #new_arrivals {
-  width: 100%;
+  min-width: auto;
   height: auto;
   text-align: center;
   margin-top: 20px;
@@ -197,21 +196,21 @@ input[type="checkbox"] {
   padding-right: 10px;
 }
 
-.new_arrivals--heading h2{
+.new_arrivals--heading h2 {
   margin: 10px 0 10px 0;
 }
 
-.new_arrivals--discount h3,strong{
+.new_arrivals--discount h3,
+strong {
   margin: 10px 0 10px 0;
 }
 
-
-.grid{
+.grid {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
 }
-.new_arrivals--cards{
+.new_arrivals--cards {
   grid-column: span 4;
 }
 
@@ -219,10 +218,9 @@ input[type="checkbox"] {
   border: 1px solid #000;
   text-align: center;
   padding: 5px;
- 
 }
 
-.card_content strong{
+.card_content strong {
   font-weight: 400;
   font-size: 1em;
 }
@@ -231,7 +229,6 @@ input[type="checkbox"] {
   width: 100%;
   height: auto;
 }
-
 
 .cta-button {
   width: 100%;
@@ -247,4 +244,39 @@ input[type="checkbox"] {
 .buy_now {
   background-color: var(--secondary);
   color: #fff;
+}
+
+.featured_collections {
+  width: auto;
+  text-align: center;
+}
+
+.featured_collections--cards {
+  grid-column: span 8;
+}
+
+.featured_collections--container img {
+  max-width: 250px;
+}
+
+/* start of footer */
+
+#footer {
+  background-color: var(--secondary);
+}
+
+form input[type="email"] {
+  background-color: var(--secondary);
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  font-size: 1.2em;
+}
+
+form button {
+  width: 90px;
+  height: 1.8em;
+  font-size: 0.9em;
+  background-color: var(--tertiary);
+  border: none;
 }
