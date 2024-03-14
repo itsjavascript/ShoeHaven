@@ -66,18 +66,15 @@ a {
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.6);
 }
 
-#nav_brand {
-  display: flex;
-  align-items: center;
-  margin: 10px 0 0 10px;
-  width: 0;
+#nav_brand h1 {
+  margin-left: 10px;
+  line-height: 2.3;
 }
 
 .site_brand_logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 5px;
 }
 
 .nav_container {
@@ -108,8 +105,8 @@ a {
 
 .checkbtn,
 .closebtn {
-  font-size: 1.6em;
-  line-height: 50px;
+  font-size: 1.3em;
+  line-height: 2.6;
   cursor: pointer;
   position: absolute;
   top: 0;
