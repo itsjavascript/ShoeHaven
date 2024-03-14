@@ -248,7 +248,7 @@ strong {
   color: #fff;
 }
 
-#viewmore{
+#viewmore {
   width: 100px;
   height: 2em;
   font-size: 0.9em;
@@ -285,11 +285,11 @@ strong {
   row-gap: 15px;
 }
 
-#footer a{
+#footer a {
   color: var(--background);
 }
 
-#footer h3{
+#footer h3 {
   color: var(--black);
 }
 
@@ -323,11 +323,11 @@ form button {
   border: none;
 }
 
-.copyright{
+.copyright {
   text-align: center;
   color: var(--background);
   background-color: var(--primary);
-  font-size: .8em;
+  font-size: 0.8em;
   padding: 8px 0 8px 0;
   font-family: "Montserrat", sans-serif;
 }
