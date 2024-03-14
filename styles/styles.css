@@ -92,13 +92,13 @@ a {
 }
 
 .cart_wishlist {
-  margin-top: 5px;
+  line-height: 2.5;
+  margin-right: 10px;
 }
 
 .fa-bag-shopping,
 .fa-heart {
   font-size: 1.4em;
-  padding: 0 6px 0 6px;
   cursor: pointer;
   color: var(--black);
 }
