@@ -104,7 +104,8 @@ a {
 }
 
 .checkbtn,
-.closebtn {
+.closebtn,
+.cartbtn {
   font-size: 1.3em;
   line-height: 2.6;
   cursor: pointer;
@@ -114,7 +115,8 @@ a {
   color: var(--black);
 }
 
-.closebtn {
+.closebtn,
+.cartbtn {
   right: 30px;
 }
 
