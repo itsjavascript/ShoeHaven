@@ -271,6 +271,7 @@ strong {
 
 #footer {
   background-color: var(--secondary);
+  font-size: 0.8rem;
 }
 
 .flex {
@@ -286,7 +287,7 @@ strong {
 }
 
 #footer h3 {
-  color: var(--black);
+  color: var(--tertiary);
 }
 
 .footer_heading {
